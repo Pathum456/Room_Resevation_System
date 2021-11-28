@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="519.0" prefWidth="746.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PaymentFormController">
+   <children>
+      <Label layoutX="224.0" text="Payment Details  " textFill="#9a0e0e" underline="true">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextField layoutX="14.0" layoutY="70.0" prefHeight="25.0" prefWidth="107.0" text="Room Id">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="14.0" layoutY="121.0" prefHeight="25.0" prefWidth="107.0" text="Guest Name">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <ComboBox layoutX="402.0" layoutY="73.0" prefWidth="150.0" promptText="Payment Methods" />
+      <TextField layoutX="107.0" layoutY="182.0" prefHeight="25.0" prefWidth="107.0">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="23.0" layoutY="187.0" text="Bill Price">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="238.0" text="Discount">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="107.0" layoutY="236.0" prefHeight="25.0" prefWidth="107.0">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="23.0" layoutY="290.0" text="Total Price">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="107.0" layoutY="285.0" prefHeight="25.0" prefWidth="107.0">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <Separator layoutX="378.0" layoutY="43.0" orientation="VERTICAL" prefHeight="476.0" prefWidth="0.0" />
+      <Label layoutX="402.0" layoutY="131.0" text="card number ">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="499.0" layoutY="127.0" prefHeight="25.0" prefWidth="107.0">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="657.0" layoutY="300.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: yellow;" text="Done" />
+      <Label layoutX="402.0" layoutY="185.0" text="Payment Success">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="531.0" layoutY="187.0" mnemonicParsing="false" text="yes">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="587.0" layoutY="187.0" mnemonicParsing="false" text="no">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Button layoutX="571.0" layoutY="300.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: yellow;" text="Print Bill" />
+      <Label layoutX="23.0" layoutY="337.0" text="Date">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="99.0" layoutY="335.0" prefHeight="25.0" prefWidth="125.0" />
+   </children>
+</AnchorPane>

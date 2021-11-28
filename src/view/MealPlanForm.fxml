@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="loadMealPlanContext" prefHeight="519.0" prefWidth="746.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MealPlanFormController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="281.0" layoutY="1.0" text="Meal plan" textFill="#bf0d0d" underline="true">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="54.0" text="Select Meal" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="44.0" layoutY="108.0" prefHeight="30.0" prefWidth="113.0" text="Meal ID">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <ComboBox layoutX="174.0" layoutY="111.0" prefHeight="25.0" prefWidth="128.0" promptText="Meal Type" />
+      <RadioButton layoutX="44.0" layoutY="161.0" mnemonicParsing="false" text="Breakfast">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="64.0" layoutY="190.0" mnemonicParsing="false" text="Lunch">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="88.0" layoutY="221.0" mnemonicParsing="false" text="Dinner">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </RadioButton>
+      <TextField layoutX="44.0" layoutY="268.0" prefHeight="30.0" prefWidth="113.0" text="Quantity">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="44.0" layoutY="318.0" prefHeight="30.0" prefWidth="113.0" text="Meal Price">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <Separator layoutX="368.0" layoutY="41.0" orientation="VERTICAL" prefHeight="478.0" prefWidth="0.0" />
+      <TextField layoutX="393.0" layoutY="108.0" prefHeight="30.0" prefWidth="113.0" text="Room ID">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="499.0" layoutY="156.0" prefHeight="30.0" prefWidth="113.0">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="393.0" layoutY="161.0" text="Guest Name">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="652.0" layoutY="432.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: yellow;" text="Save" />
+      <Label layoutX="393.0" layoutY="200.0" text="Date">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="442.0" layoutY="198.0" />
+   </children>
+</AnchorPane>

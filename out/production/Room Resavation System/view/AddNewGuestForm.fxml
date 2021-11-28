@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="newGuestContext" prefHeight="519.0" prefWidth="746.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddNewGuestFormController">
+   <children>
+      <Label layoutX="241.0" layoutY="1.0" text="Add New Guest" textFill="#ae1d1d" underline="true">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="85.0" text="Guest Name">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="103.0" layoutY="84.0" />
+      <Label layoutX="10.0" layoutY="246.0" text=" NIC Number">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="103.0" layoutY="139.0" />
+      <Label layoutX="10.0" layoutY="201.0" text="Contact Number ">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="139.0" layoutY="199.0" />
+      <TextField layoutX="141.0" layoutY="246.0" />
+      <Label layoutX="14.0" layoutY="140.0" text="Address">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="307.0" text="Email">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="103.0" layoutY="305.0" prefHeight="25.0" prefWidth="213.0" />
+      <Separator layoutX="382.0" layoutY="43.0" orientation="VERTICAL" prefHeight="475.0" prefWidth="0.0" />
+      <Label layoutX="388.0" layoutY="87.0" text="Room ID">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="464.0" layoutY="83.0" />
+      <RadioButton layoutX="539.0" layoutY="164.0" mnemonicParsing="false" text="AC">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="576.0" layoutY="189.0" mnemonicParsing="false" text="Non-AC">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </RadioButton>
+      <ComboBox layoutX="464.0" layoutY="130.0" prefWidth="150.0" promptText="Room Type" />
+      <Button layoutX="675.0" layoutY="305.0" mnemonicParsing="false" prefWidth="57.0" style="-fx-background-color: yellow;" text="Save" />
+      <Label layoutX="13.0" layoutY="356.0" text="Time Period">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="93.0" layoutY="382.0" prefHeight="25.0" prefWidth="112.0" />
+      <Label layoutX="55.0" layoutY="384.0" text="from">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="216.0" layoutY="385.0" text="to">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="232.0" layoutY="383.0" prefHeight="25.0" prefWidth="112.0" />
+   </children>
+</AnchorPane>
